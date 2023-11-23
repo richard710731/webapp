@@ -1,0 +1,128 @@
+* {
+    font-family: Meiryo,"Microsoft JhengHei","Microsoft YaHei";
+    font-weight: normal;
+}
+body {
+    /* 1em = 16px */
+    font-size: 1.2em;
+}
+#headbar {
+    width: 98%;
+    height: 2.4rem;
+    padding: 0.2% 1% 0.1% 1%;
+    vertical-align: middle;
+}
+#mainmenu {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+#mainmenu li {
+    float: left;
+}
+#mainmenu a {
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    padding: 0.4em 1.5em;
+    background-color:darkslategrey;
+    text-decoration: none;
+}
+#mainmenu li a:hover {
+    background-color: darkcyan;
+}
+#mainmenu li a:active {
+    background-color: darkcyan;
+}
+#fbshare {
+    padding: 10px 20px 0 0;
+    font-size: 25px;
+    color: white;
+    background-color: #4267B2;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#logbtn {
+    color: white;
+    background-color: darkcyan;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 6px 15px 4px 15px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px silver;
+}
+#logbtn:hover {
+    cursor: pointer;
+}
+#logon {
+    width: 100%;
+    padding: 3% 0;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    box-shadow: 5px 5px 8px silver;
+}
+#logon:hover {
+    cursor: pointer;
+}
+#logreg {
+    width: 100%;
+    padding: 3% 0;
+    background-color: olivedrab;
+    border: 1px solid olivedrab;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+    box-shadow: 5px 5px 8px silver;
+}
+#logreg:hover {
+    cursor: pointer;
+}
+#logpass {
+    width: 100%;
+    padding: 3% 0;
+    background-color: gainsboro;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: royalblue;
+    margin-top: 15px;
+    box-shadow: 5px 5px 8px silver;
+}
+#logpass:hover {
+    cursor: pointer;
+}
+.macrocontent {
+    width: 96%;
+    margin: 1% 2% 0 2%;
+    vertical-align: top;
+}
+.macrocontent img {
+    width:40%;
+    margin: 3% 2% 0 2%;
+    border-radius: 5px;
+}
+.macrocontent h1 {
+    font-weight:bold;
+    vertical-align: top;
+    color: teal;
+}
+.macrocontent span {
+    color: royalblue;
+    font-size: 1.6em;
+    line-height: 1.8em;
+}
+.contenttext {
+    width:54%;
+    margin: 0.5% 1%;
+    float: right;
+    text-align: left;
+}
